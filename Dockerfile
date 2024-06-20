@@ -49,6 +49,8 @@ ENV NODE_OPTIONS "--max-old-space-size=8192"
 
 # run build standalone for docker version
 RUN npm run build:docker
+RUN npm i -g bun
+RUN npm run build-migrate-db
 
 ## Production image, copy all the files and run next
 FROM base AS runner
