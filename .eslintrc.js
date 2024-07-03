@@ -23,7 +23,8 @@ config.overrides = [
     extends: ['plugin:mdx/recommended'],
     files: ['*.mdx'],
     rules: {
-      '@typescript-eslint/no-unused-vars': 1,
+      'unused-imports/no-unused-imports': 'off',
+      '@typescript-eslint/no-unused-vars': 'off',
       'no-undef': 0,
       'react/jsx-no-undef': 0,
       'react/no-unescaped-entities': 0,
