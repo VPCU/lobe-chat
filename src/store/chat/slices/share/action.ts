@@ -20,7 +20,7 @@ interface ShareMessage {
 
 const Footer: ShareMessage = {
   from: 'gpt',
-  value: `Share from [**🤯 LobeChat**](https://github.com/lobehub/lobe-chat) - ${dayjs().format(
+  value: `${dayjs().format(
     'YYYY-MM-DD',
   )}`,
 };
