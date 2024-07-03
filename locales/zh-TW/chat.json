@@ -22,8 +22,8 @@
   "emptyAgent": "暫無助手",
   "historyRange": "歷史範圍",
   "inbox": {
-    "desc": "開啟大腦集群，激發思維火花。你的智能助理，在這裡與你交流一切",
-    "title": "隨便聊聊"
+    "desc": "",
+    "title": "聊天"
   },
   "input": {
     "addAi": "新增一條 AI 訊息",
