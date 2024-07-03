@@ -20,7 +20,7 @@ const useStyles = createStyles(
   `,
 );
 
-const Footer = memo<PropsWithChildren>(() => {
+const Footer2 = memo<PropsWithChildren>(() => {
   const { t } = useTranslation('common');
   const [openStar, setOpenStar] = useState(false);
   const [openFeedback, setOpenFeedback] = useState(false);
@@ -89,6 +89,13 @@ const Footer = memo<PropsWithChildren>(() => {
         open={openFeedback}
         title={t('footer.feedback.title')}
       />
+    </>
+  );
+});
+
+const Footer = memo<PropsWithChildren>(() => {
+  return (
+    <>
     </>
   );
 });

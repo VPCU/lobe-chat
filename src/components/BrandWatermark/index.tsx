@@ -17,7 +17,7 @@ const useStyles = createStyles(({ token, css }) => ({
   `,
 }));
 
-const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest }) => {
+const BrandWatermark2 = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest }) => {
   const { styles, theme } = useStyles();
   return (
     <Flexbox
@@ -33,6 +33,12 @@ const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest })
         <LobeHub size={20} type={'text'} />
       </Link>
     </Flexbox>
+  );
+});
+
+const BrandWatermark = memo<Omit<FlexboxProps, 'children'>>(({ style, ...rest }) => {
+  return (
+    <></>
   );
 });
 
