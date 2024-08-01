@@ -10,6 +10,7 @@
       "title": "新增助理推薦："
     },
     "defaultMessage": "",
+    "defaultMessageWithoutCreate": "",
     "qa": {
       "q01": "LobeHub 是什麼？",
       "q02": "LobeChat 是什麼？",

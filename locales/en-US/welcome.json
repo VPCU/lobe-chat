@@ -10,6 +10,7 @@
       "title": "New Assistant Recommendations:"
     },
     "defaultMessage": "",
+    "defaultMessageWithoutCreate": "",
     "qa": {
       "q01": "What is LobeHub?",
       "q02": "What is LobeChat?",
