@@ -86,55 +86,55 @@ ENV ACCESS_CODE ""
 
 ENV API_KEY_SELECT_MODE ""
 
-# OpenAI
-ENV OPENAI_API_KEY ""
-ENV OPENAI_PROXY_URL ""
-ENV OPENAI_MODEL_LIST ""
+# Model Variables
+ENV \
+    # Ai360
+    AI360_API_KEY="" \
+    # Anthropic
+    ANTHROPIC_API_KEY="" ANTHROPIC_PROXY_URL="" \
+    # Amazon Bedrock
+    AWS_ACCESS_KEY_ID="" AWS_SECRET_ACCESS_KEY="" AWS_REGION="" \
+    # Azure OpenAI
+    AZURE_API_KEY="" AZURE_API_VERSION="" AZURE_ENDPOINT="" AZURE_MODEL_LIST="" \
+    # Baichuan
+    BAICHUAN_API_KEY="" \
+    # DeepSeek
+    DEEPSEEK_API_KEY="" \
+    # Google
+    GOOGLE_API_KEY="" GOOGLE_PROXY_URL="" \
+    # Groq
+    GROQ_API_KEY="" GROQ_PROXY_URL="" \
+    # Minimax
+    MINIMAX_API_KEY="" \
+    # Mistral
+    MISTRAL_API_KEY="" \
+    # Moonshot
+    MOONSHOT_API_KEY="" MOONSHOT_PROXY_URL="" \
+    # Novita
+    NOVITA_API_KEY="" \
+    # Ollama
+    OLLAMA_MODEL_LIST="" OLLAMA_PROXY_URL="" \
+    # OpenAI
+    OPENAI_API_KEY="" OPENAI_MODEL_LIST="" OPENAI_PROXY_URL="" \
+    # OpenRouter
+    OPENROUTER_API_KEY="" OPENROUTER_MODEL_LIST="" \
+    # Perplexity
+    PERPLEXITY_API_KEY="" PERPLEXITY_PROXY_URL="" \
+    # Qwen
+    QWEN_API_KEY="" \
+    # Stepfun
+    STEPFUN_API_KEY="" \
+    # Taichu
+    TAICHU_API_KEY="" \
+    # TogetherAI
+    TOGETHERAI_API_KEY="" TOGETHERAI_MODEL_LIST="" \
+    # 01.AI
+    ZEROONE_API_KEY="" \
+    # Zhipu
+    ZHIPU_API_KEY=""
 
-# Azure OpenAI
-ENV USE_AZURE_OPENAI ""
-ENV AZURE_API_KEY ""
-ENV AZURE_API_VERSION ""
+USER nextjs
 
-# Google
-ENV GOOGLE_API_KEY ""
+EXPOSE 3210/tcp
 
-# Zhipu
-ENV ZHIPU_API_KEY ""
-
-# Moonshot
-ENV MOONSHOT_API_KEY ""
-
-# Ollama
-ENV OLLAMA_PROXY_URL ""
-ENV OLLAMA_MODEL_LIST ""
-
-# Perplexity
-ENV PERPLEXITY_API_KEY ""
-
-# Anthropic
-ENV ANTHROPIC_API_KEY ""
-
-# Mistral
-ENV MISTRAL_API_KEY ""
-
-# OpenRouter
-ENV OPENROUTER_API_KEY ""
-ENV OPENROUTER_MODEL_LIST ""
-
-# 01.AI
-ENV ZEROONE_API_KEY ""
-
-# TogetherAI
-ENV TOGETHERAI_API_KEY ""
-
-# Minimax
-ENV MINIMAX_API_KEY ""
-
-# DeepSeek
-ENV DEEPSEEK_API_KEY ""
-
-# Qwen
-ENV QWEN_API_KEY ""
-
-CMD ["node", "server.js"]
+CMD ["node", "/app/server.js"]
