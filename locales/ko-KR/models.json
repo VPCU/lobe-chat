@@ -35,6 +35,9 @@
   "Gryphe/MythoMax-L2-13b": {
     "description": "MythoMax-L2 (13B)는 혁신적인 모델로, 다양한 분야의 응용과 복잡한 작업에 적합합니다."
   },
+  "Max-32k": {
+    "description": "Spark Max 32K는 대규모 컨텍스트 처리 능력을 갖추고 있으며, 더 강력한 컨텍스트 이해 및 논리 추론 능력을 제공합니다. 32K 토큰의 텍스트 입력을 지원하며, 긴 문서 읽기, 개인 지식 질문 응답 등 다양한 상황에 적합합니다."
+  },
   "Nous-Hermes-2-Mixtral-8x7B-DPO": {
     "description": "Hermes 2 Mixtral 8x7B DPO는 뛰어난 창의적 경험을 제공하기 위해 설계된 고도로 유연한 다중 모델 통합입니다."
   },
@@ -329,8 +332,11 @@
   "gemini-1.5-flash-001": {
     "description": "Gemini 1.5 Flash 001은 효율적인 다중 모달 모델로, 광범위한 응용 프로그램 확장을 지원합니다."
   },
-  "gemini-1.5-flash-8b-exp-0827": {
-    "description": "Gemini 1.5 Flash 8B 0827은 대규모 작업 시나리오 처리를 위해 설계되었으며, 비할 데 없는 처리 속도를 제공합니다."
+  "gemini-1.5-flash-002": {
+    "description": "Gemini 1.5 Flash 002는 효율적인 다중 모달 모델로, 광범위한 응용 프로그램의 확장을 지원합니다."
+  },
+  "gemini-1.5-flash-8b-exp-0924": {
+    "description": "Gemini 1.5 Flash 8B 0924는 최신 실험 모델로, 텍스트 및 다중 모달 사용 사례에서 상당한 성능 향상을 보여줍니다."
   },
   "gemini-1.5-flash-exp-0827": {
     "description": "Gemini 1.5 Flash 0827은 최적화된 다중 모달 처리 능력을 제공하며, 다양한 복잡한 작업 시나리오에 적합합니다."
@@ -340,6 +346,9 @@
   },
   "gemini-1.5-pro-001": {
     "description": "Gemini 1.5 Pro 001은 확장 가능한 다중 모달 AI 솔루션으로, 광범위한 복잡한 작업을 지원합니다."
+  },
+  "gemini-1.5-pro-002": {
+    "description": "Gemini 1.5 Pro 002는 최신 생산 준비 모델로, 특히 수학, 긴 문맥 및 시각적 작업에서 더 높은 품질의 출력을 제공합니다."
   },
   "gemini-1.5-pro-exp-0801": {
     "description": "Gemini 1.5 Pro 0801은 뛰어난 다중 모달 처리 능력을 제공하여 응용 프로그램 개발에 더 큰 유연성을 제공합니다."
