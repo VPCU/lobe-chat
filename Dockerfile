@@ -149,6 +149,4 @@ USER nextjs
 
 EXPOSE 8080/tcp
 
-ENTRYPOINT ["/bin/node"]
-
-CMD ["/app/startServer.js"]
+CMD ["node", "/app/server.js"]
