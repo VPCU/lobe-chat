@@ -32,6 +32,7 @@
   "duplicateTitle": "{{title}} Copy",
   "emptyAgent": "No assistant available",
   "historyRange": "History Range",
+  "historySummary": "Historical Message Summary",
   "inbox": {
     "desc": "",
     "title": "Chat"

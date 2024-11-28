@@ -32,6 +32,7 @@
   "duplicateTitle": "{{title}} 副本",
   "emptyAgent": "暂无助手",
   "historyRange": "历史范围",
+  "historySummary": "历史消息总结",
   "inbox": {
     "desc": "",
     "title": "聊天"
